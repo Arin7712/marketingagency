@@ -20,7 +20,7 @@ xl:w-4/5
 2xl:w-[68%]
 
    
-    bg-white 
+    bg-black 
     flex 
     items-center
     justify-between py-6
@@ -45,18 +45,18 @@ xl:w-4/5
           <Link
             href="/showcase"
             className="
-          hover:text-blue-500
+          hover:text-yellow-200
           "
           >
             Showcase
           </Link>
-             <Link href="/" className="hover:text-blue-500">
+             <Link href="/" className="hover:text-yellow-200">
             Services
           </Link>
-          <Link href="/" className="hover:text-blue-500">
+          <Link href="/" className="hover:text-yellow-200">
         Process
           </Link>
-          <Link href="/" className="hover:text-blue-500">
+          <Link href="/" className="hover:text-yellow-200">
             Guarentees
           </Link>
   
@@ -67,18 +67,17 @@ xl:w-4/5
       <div className="flex items-center gap-x-4">
 
 
-
       <Link
       href={"/meeting"}
         className="py-3 px-6
       text-lg
-      hover:bg-[#abcbff] 
+      hover:bg-yellow-200
       rounded-[6px]
       border-2 
       border-black 
       dark:border-white 
-           bg-[#121212] 
-       text-white 
+           bg-white
+       text-black 
        transition 
        duration-200 
        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "

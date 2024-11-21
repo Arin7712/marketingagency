@@ -63,13 +63,13 @@ export default function Home() {
     <div
       className="overflow-hidden 
  inset-0 
- -z-10 h-full w-full bg-[#fafafa]
+ -z-10 h-full w-full bg-white
   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
    bg-[size:14px_24px]"
     >
       <Element
         name="top"
-        className="overflow-hidden bg-white rounded-[6px] top-5 sticky md:mx-auto z-50 xl:4/5 2xl:w-[68%] flex items-center justify-between py-6 px-4 md:px-8 mx-6 transition-all ease-in-out"
+        className="overflow-hidden bg-black text-white rounded-[6px] top-5 sticky md:mx-auto z-50 xl:4/5 2xl:w-[68%] flex items-center justify-between py-6 px-4 md:px-8 mx-6 transition-all ease-in-out"
       >
         <Link href={"/"}>
           <Image
@@ -85,7 +85,7 @@ export default function Home() {
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
             <Link
               href={"/showcase"}
-              className="hover:text-blue-500 duration-500"
+              className="hover:text-yellow-200 duration-500"
             >
               Showcase
             </Link>
@@ -93,7 +93,7 @@ export default function Home() {
             <ScrollLink
               to="services"
               smooth={true}
-              className="hover:text-blue-500 duration-500"
+              className="hover:text-yellow-200 duration-500"
             >
               Services
             </ScrollLink>
@@ -101,7 +101,7 @@ export default function Home() {
             <ScrollLink
               to="process"
               smooth={true}
-              className="hover:text-blue-500 duration-500"
+              className="hover:text-yellow-200 duration-500"
             >
               Process
             </ScrollLink>
@@ -109,7 +109,7 @@ export default function Home() {
             <ScrollLink
               to="guarentees"
               smooth={true}
-              className="hover:text-blue-500 duration-500"
+              className="hover:text-yellow-200 duration-500"
             >
               Guarentees
             </ScrollLink>
@@ -117,11 +117,6 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="tel:9421835677" className="hidden lg:flex">
-            <button className="px-4 py-4 rounded-md flex items-center gap-x-3">
-              9421835677
-            </button>
-          </a>
 
           <Link
             href={"/meeting"}
@@ -129,12 +124,12 @@ export default function Home() {
         px-6
         py-3
         text-lg
-        hover:bg-[#abcbff]
+        hover:bg-yellow-200
         rounded-[6px]
         border-black 
         border-2 uppercas
-        text-white
-        bg-[#121212]
+        text-black
+        bg-white
         transition
         duration-200
         hoevr:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)]
@@ -172,13 +167,14 @@ export default function Home() {
             px-10
             md:px-16
       md:text-xl
-      hover:bg-[#abcbff] 
+      hover:bg-yellow-200 
       rounded-[6px]
       border-2 
       border-black 
       dark:border-white 
        bg-[#121212] 
        text-white 
+       hover:text-black
        transition 
        duration-200 
        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
@@ -203,30 +199,30 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
+                <PiCheckBold className="text-xl text-yellow-200" />
                 Design
               </p>
             </BoxReveal>
 
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
+                <PiCheckBold className="text-xl text-yellow-200" />
                 Development
               </p>
             </BoxReveal>
 
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
+                <PiCheckBold className="text-xl text-yellow-200" />
                 Marketing
               </p>
             </BoxReveal>
 
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
+                <PiCheckBold className="text-xl text-yellow-200" />
                 Strategy
               </p>
             </BoxReveal>
@@ -240,7 +236,7 @@ export default function Home() {
 
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
-                  <h1 className="text-blue-500 text-3xl md:text-5xl">
+                  <h1 className="text-yellow-200 text-3xl md:text-5xl">
                     <NumberTicker value={1000} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Happy Clients
@@ -251,7 +247,7 @@ export default function Home() {
                 <div className="w-px bg-gray-300 self-stretch"></div>
 
                 <div className="flex-1 min-w-0">
-                  <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
+                  <h1 className="text-yellow-200 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
                     <NumberTicker value={100} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Projects Completed
@@ -302,7 +298,7 @@ export default function Home() {
                 {services.map((service) => (
                   <div
                   key={service.title}
-                  className="flex flex-col justify-between h-full space-y-4 text-center bg-gray-100 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
+                  className="flex flex-col justify-between h-full space-y-4 text-center bg-black p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
                   >
                     <Image 
                     src={service.icon}
@@ -312,8 +308,8 @@ export default function Home() {
                     className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
                     />
 
-                    <h1 className="text-xl font-medium">{service.title}</h1>
-                    <p className="text-gray-500">{service.description}</p>
+                    <h1 className="text-xl font-medium text-white">{service.title}</h1>
+                    <p className="text-yellow-200">{service.description}</p>
 
                   </div>
 
@@ -426,7 +422,7 @@ export default function Home() {
 
         <div className="flex md:justify-center gap-x-4 mt-10">
           © 2025 Bird. All Rights Reserved.
-          <Link href="/" className="text-blue-500">
+          <Link href="/" className="text-yellow-200">
             Privacy Policy
           </Link>
         </div>
