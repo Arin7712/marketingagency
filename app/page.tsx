@@ -85,7 +85,7 @@ export default function Home() {
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
             <Link
               href={"/showcase"}
-              className="hover:text-yellow-200 duration-500"
+              className="hover:text-yellow-200 text-yellow-200 duration-500"
             >
               Showcase
             </Link>
@@ -93,7 +93,7 @@ export default function Home() {
             <ScrollLink
               to="services"
               smooth={true}
-              className="hover:text-yellow-200 duration-500"
+              className="hover:text-yellow-200 text-yellow-200 duration-500"
             >
               Services
             </ScrollLink>
@@ -101,7 +101,7 @@ export default function Home() {
             <ScrollLink
               to="process"
               smooth={true}
-              className="hover:text-yellow-200 duration-500"
+              className="hover:text-yellow-200 text-yellow-200 duration-500"
             >
               Process
             </ScrollLink>
@@ -109,7 +109,7 @@ export default function Home() {
             <ScrollLink
               to="guarentees"
               smooth={true}
-              className="hover:text-yellow-200 duration-500"
+              className="hover:text-yellow-200 text-yellow-200 duration-500"
             >
               Guarentees
             </ScrollLink>
