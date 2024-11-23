@@ -81,7 +81,7 @@ export function ShootingStarsAndStarsBackgroundDemo() {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="flex flex-col   p-10 bg-neutral-800 rounded-xl cursor-pointer"
+            className="flex flex-col   p-10 bg-yellow-200 rounded-xl cursor-pointer"
           >
             <button
               className="
@@ -95,10 +95,10 @@ export function ShootingStarsAndStarsBackgroundDemo() {
               </div>
             </button>
 
-            <h3 className="text-xl font-bold mt-4 text-white">
+            <h3 className="text-xl font-bold mt-4 text-black">
               {feature.title}
             </h3>
-            <p className=" text-gray-200">{feature.description}</p>
+            <p className=" text-gray-900">{feature.description}</p>
           </div>
         ))}
       </div>

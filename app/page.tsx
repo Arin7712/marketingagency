@@ -70,13 +70,13 @@ export default function Home() {
     >
       <Element
         name="top"
-        className="overflow-hidden bg-black text-white rounded-[6px] top-5 sticky md:mx-auto z-50 xl:4/5 2xl:w-[68%] flex items-center justify-between py-6 px-4 md:px-8 mx-6 transition-all ease-in-out"
+        className="overflow-hidden bg-yellow-200 text-white rounded-[6px] top-5 sticky md:mx-auto z-50 xl:4/5 2xl:w-[68%] flex items-center justify-between py-6 px-4 md:px-8 mx-6 transition-all ease-in-out"
       >
         <Link href={"/"}>
           <Image
-            src="/momedia.jpg"
+            src="/momedia1.jpg"
             alt="logo"
-            width={80}
+            width={120}
             height={80}
             className=" rounded-sm"
           />
@@ -86,7 +86,7 @@ export default function Home() {
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
             <Link
               href={"/showcase"}
-              className="hover:text-yellow-200 text-yellow-200 duration-500"
+              className=" text-black duration-500"
             >
               Showcase
             </Link>
@@ -94,7 +94,7 @@ export default function Home() {
             <ScrollLink
               to="services"
               smooth={true}
-              className="hover:text-yellow-200 text-yellow-200 duration-500"
+              className=" text-black duration-500"
             >
               Services
             </ScrollLink>
@@ -102,7 +102,7 @@ export default function Home() {
             <ScrollLink
               to="process"
               smooth={true}
-              className="hover:text-yellow-200 text-yellow-200 duration-500"
+              className=" text-black duration-500"
             >
               Process
             </ScrollLink>
@@ -110,7 +110,7 @@ export default function Home() {
             <ScrollLink
               to="guarentees"
               smooth={true}
-              className="hover:text-yellow-200 text-yellow-200 duration-500"
+              className=" text-black duration-500"
             >
               Guarentees
             </ScrollLink>
@@ -125,7 +125,6 @@ export default function Home() {
         px-6
         py-3
         text-lg
-        hover:bg-yellow-200
         rounded-[6px]
         border-black 
         border-2 uppercas
@@ -264,19 +263,19 @@ export default function Home() {
                 direction="left"
                 items={[
                   {
-                    logo: "/nana.png",
+                    logo: "/momedia1.jpg",
                     name: "Logo",
                   },
                   {
-                    logo: "/nana.png",
+                    logo: "/momedia1.jpg",
                     name: "Logo2",
                   },
                   {
-                    logo: "/nana.png",
+                    logo: "/momedia1.jpg",
                     name: "Logo3",
                   },
                   {
-                    logo: "/nana.png",
+                    logo: "/momedia1.jpg",
                     name: "Logo4",
                   },
                 ]}
@@ -299,7 +298,7 @@ export default function Home() {
                 {services.map((service) => (
                   <div
                   key={service.title}
-                  className="flex flex-col justify-between h-full space-y-4 text-center bg-black p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
+                  className="flex flex-col justify-between h-full space-y-4 text-center bg-yellow-200 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
                   >
                     <Image 
                     src={service.icon}
@@ -310,7 +309,7 @@ export default function Home() {
                     />
 
                     <h1 className="text-xl font-medium text-white">{service.title}</h1>
-                    <p className="text-yellow-200">{service.description}</p>
+                    <p className="text-black">{service.description}</p>
 
                   </div>
 
@@ -330,7 +329,7 @@ export default function Home() {
                 <span className="text-blur-500 flex gap-x-1 items-center">
                   {" "}
                   <StarRate style={{ fontSize: 30, color: 'yellow' }} className="mb-8"/>
-              Creative
+              <span className="text-yellow-200">Creative</span>
               <Gesture style={{ fontSize: 30, color: 'yellow' }} className="mb-8"/>
                 </span>{" "}
                 Process
@@ -355,7 +354,7 @@ export default function Home() {
       <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
-            src={"/nana.png"}
+            src={"/momedia1.jpg"}
             width={10000}
             height={10000}
             className=" md:w-1/3 rounded-md"
@@ -396,7 +395,7 @@ export default function Home() {
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
-              src={"/nana.png"}
+              src={"/momedia1.jpg"}
               width={10000}
               height={10000}
               className="w-48 rounded-sm"

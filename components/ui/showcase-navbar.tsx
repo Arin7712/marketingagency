@@ -32,9 +32,9 @@ xl:w-4/5
     >
       <Link href="/">
       <Image
-            src="/momedia.jpg"
+            src="/momedia1.jpg"
             alt="logo"
-            width={80}
+            width={120}
             height={80}
             className=" rounded-sm"
           />
@@ -45,18 +45,18 @@ xl:w-4/5
           <Link
             href="/showcase"
             className="
-          hover:text-yellow-200 text-yellow-200 duration-500
+          h text-black duration-500
           "
           >
             Showcase
           </Link>
-             <Link href="/" className="hover:text-yellow-200 text-yellow-200 duration-500">
+             <Link href="/" className=" text-black duration-500">
             Services
           </Link>
-          <Link href="/" className="hover:text-yellow-200 text-yellow-200 duration-500">
+          <Link href="/" className=" text-black duration-500">
         Process
           </Link>
-          <Link href="/" className="hover:text-yellow-200 text-yellow-200 duration-500">
+          <Link href="/" className=" text-black duration-500">
             Guarentees
           </Link>
   
