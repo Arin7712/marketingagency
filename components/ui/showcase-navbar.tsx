@@ -32,12 +32,12 @@ xl:w-4/5
     >
       <Link href="/">
       <Image
-        src="/logo/logo.webp"
-        alt="Bird Logo"
-        width={1000}
-        height={1000}
-        className="w-28"
-      />
+            src="/momedia.jpg"
+            alt="logo"
+            width={80}
+            height={80}
+            className=" rounded-sm"
+          />
       </Link>
 
       <div className="absolute right-1/2 translate-x-1/2 transform">
@@ -45,18 +45,18 @@ xl:w-4/5
           <Link
             href="/showcase"
             className="
-          hover:text-yellow-200
+          hover:text-yellow-200 text-yellow-200 duration-500
           "
           >
             Showcase
           </Link>
-             <Link href="/" className="hover:text-yellow-200">
+             <Link href="/" className="hover:text-yellow-200 text-yellow-200 duration-500">
             Services
           </Link>
-          <Link href="/" className="hover:text-yellow-200">
+          <Link href="/" className="hover:text-yellow-200 text-yellow-200 duration-500">
         Process
           </Link>
-          <Link href="/" className="hover:text-yellow-200">
+          <Link href="/" className="hover:text-yellow-200 text-yellow-200 duration-500">
             Guarentees
           </Link>
   

@@ -16,7 +16,8 @@ import { AnimatedBeamMultipleOutputDemo } from "@/components/ui/demos/animated-b
 import {IconStarFilled} from '@tabler/icons-react'
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/ui/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
-
+import StarRate from '@mui/icons-material/StarRate';
+import Gesture from '@mui/icons-material/Gesture';
 
 const services = [
   {
@@ -73,11 +74,11 @@ export default function Home() {
       >
         <Link href={"/"}>
           <Image
-            src="/logo/logo.webp"
+            src="/momedia.jpg"
             alt="logo"
-            width={1000}
-            height={1000}
-            className="w-28"
+            width={80}
+            height={80}
+            className=" rounded-sm"
           />
         </Link>
 
@@ -169,11 +170,11 @@ export default function Home() {
       md:text-xl
       hover:bg-yellow-200 
       rounded-[6px]
-      border-2 
+      border-4 
       border-black 
       dark:border-white 
-       bg-[#121212] 
-       text-white 
+       bg-yellow-200
+       text-black 
        hover:text-black
        transition 
        duration-200 
@@ -263,19 +264,19 @@ export default function Home() {
                 direction="left"
                 items={[
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/nana.png",
                     name: "Logo",
                   },
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/nana.png",
                     name: "Logo2",
                   },
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/nana.png",
                     name: "Logo3",
                   },
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/nana.png",
                     name: "Logo4",
                   },
                 ]}
@@ -328,21 +329,9 @@ export default function Home() {
                 Our{" "}
                 <span className="text-blur-500 flex gap-x-1 items-center">
                   {" "}
-                  <Image
-                src={"/squiggle.svg"}
-                width={10000}
-                height={10000}
-                className="w-6"
-                alt="image"
-              />
+                  <StarRate style={{ fontSize: 30, color: 'yellow' }} className="mb-8"/>
               Creative
-              <Image
-                src={"/star.svg"}
-                width={10000}
-                height={10000}
-                className="w-6 mb-8"
-                alt="image"
-              />
+              <Gesture style={{ fontSize: 30, color: 'yellow' }} className="mb-8"/>
                 </span>{" "}
                 Process
           </h1>
@@ -366,7 +355,7 @@ export default function Home() {
       <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
-            src={"/logo/logo.webp"}
+            src={"/nana.png"}
             width={10000}
             height={10000}
             className=" md:w-1/3 rounded-md"
@@ -407,10 +396,10 @@ export default function Home() {
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
-              src={"/logo/logo.webp"}
+              src={"/nana.png"}
               width={10000}
               height={10000}
-              className="w-40"
+              className="w-48 rounded-sm"
               alt="image"
             />{" "}
           </h1>
