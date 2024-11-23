@@ -142,7 +142,6 @@ export default function Home() {
 
       <main className="md:pb-10">
         <div className="md:px-0 mx-6 text-center xl:w-4/5 2xl:w-[60%] md:mx-auto mt-14">
-          <AnimatedShinyTextDemo />
 
           <h1>
             <CoverDemo />
