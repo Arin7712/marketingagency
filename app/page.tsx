@@ -370,8 +370,9 @@ export default function Home() {
               alt="image"
             />{" "}
           </h1>
-          <p className="text-left  text-xl  text-black">
-            <a href="mailto:">Mo@growwith-mo.com</a>
+          <p className="text-left flex flex-col text-xl  text-black">
+            <a href="mailto:">Email - Mo@growwith-mo.com</a>
+            <a href="https://www.instagram.com/grow.with_mo">Instagram - grow.with_mo</a>
           </p>
         </div>
 
