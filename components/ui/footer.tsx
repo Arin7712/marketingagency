@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
+    <footer className="bg-yellow-100 py-10  px-6 md:px-0 md:mx-auto border-t">
       <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
         <h1 className="text-3xl md:text-5xl font-medium ">
         <Image
@@ -14,8 +14,8 @@ const Footer = () => {
               alt="image"
             />{" "}
         </h1>
-        <p className="text-left  text-xl  text-gray-500">519-319-1562</p>
-        <p className="text-left  text-xl  text-gray-500">
+        <p className="text-left  text-xl  text-black">519-319-1562</p>
+        <p className="text-left  text-xl  text-black">
           admin@birdsoftware.ca
         </p>
       </div>

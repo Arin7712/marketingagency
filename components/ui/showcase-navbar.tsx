@@ -20,7 +20,7 @@ xl:w-4/5
 2xl:w-[68%]
 
    
-    bg-black 
+    bg-yellow-200 
     flex 
     items-center
     justify-between py-6

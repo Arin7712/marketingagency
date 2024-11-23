@@ -64,7 +64,7 @@ export default function Home() {
     <div
       className="overflow-hidden 
  inset-0 
- -z-10 h-full w-full bg-white
+ -z-10 h-full w-full bg-yellow-100
   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
    bg-[size:14px_24px]"
     >
@@ -147,7 +147,7 @@ export default function Home() {
             <CoverDemo />
           </h1>
 
-          <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500">
+          <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-black">
             Schedule a call with us to discuss your project and get a quote in
             minutes
           </p>
@@ -200,28 +200,28 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
             <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-yellow-200" />
+                <PiCheckBold className="text-xl text-black" />
                 Design
               </p>
             </BoxReveal>
 
             <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-yellow-200" />
+                <PiCheckBold className="text-xl text-black" />
                 Development
               </p>
             </BoxReveal>
 
             <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-yellow-200" />
+                <PiCheckBold className="text-xl text-black" />
                 Marketing
               </p>
             </BoxReveal>
 
             <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-yellow-200" />
+                <PiCheckBold className="text-xl text-black" />
                 Strategy
               </p>
             </BoxReveal>
@@ -289,7 +289,7 @@ export default function Home() {
           <h1>
             <WordPullUpDemo/>
           </h1>
-          <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-1/2 mx-auto text-gray-500">
+          <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-1/2 mx-auto text-black">
             All of our services are designed to help your business stand out
           </p>
 
@@ -307,7 +307,7 @@ export default function Home() {
                     className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
                     />
 
-                    <h1 className="text-xl font-medium text-white">{service.title}</h1>
+                    <h1 className="text-xl font-medium text-neutral-900">{service.title}</h1>
                     <p className="text-black">{service.description}</p>
 
                   </div>
@@ -328,13 +328,13 @@ export default function Home() {
                 <span className="text-blur-500 flex gap-x-1 items-center">
                   {" "}
                   <StarRate style={{ fontSize: 30, color: 'yellow' }} className="mb-8"/>
-              <span className="text-yellow-200">Creative</span>
+              <span className="text-black">Creative</span>
               <Gesture style={{ fontSize: 30, color: 'yellow' }} className="mb-8"/>
                 </span>{" "}
                 Process
           </h1>
 
-          <p className="text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
+          <p className="text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-black">
           All of our services are designed to help your business to get noticed.
           </p>
 
@@ -359,7 +359,7 @@ export default function Home() {
                 <LetsMakeThingsHappenSection/>
       </section>
 
-      <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
+      <footer className="bg-yellow-100 py-10  px-6 md:px-0 md:mx-auto border-t">
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
@@ -370,15 +370,14 @@ export default function Home() {
               alt="image"
             />{" "}
           </h1>
-          <p className="text-left  text-xl  text-gray-500">519-200-5000</p>
-          <p className="text-left  text-xl  text-gray-500">
-            admin@birdsoftware.ca
+          <p className="text-left  text-xl  text-black">
+            <a href="mailto:">Mo@growwith-mo.com</a>
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Bird. All Rights Reserved.
-          <Link href="/" className="text-yellow-200">
+          © 2025 Grow with Mo. All Rights Reserved.
+          <Link href="/" className="text-neutral-900">
             Privacy Policy
           </Link>
         </div>

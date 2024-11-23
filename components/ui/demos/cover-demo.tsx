@@ -5,7 +5,7 @@ export function CoverDemo() {
   return (
     <div>
       <h1 className="text-3xl md:text-6xl font-semibold max-w-7xl mx-auto MD:text-center relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
-        Elevate your brand with<br /> at <Cover>Mo Marketing Services</Cover>
+        Elevate your brand with<br /> at <Cover>Grow With Mo</Cover>
       </h1>
     </div>
   );

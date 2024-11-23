@@ -10,7 +10,7 @@ const Showcase = () => {
       className="
         overflow-clip 
  inset-0 
- -z-10 h-full w-full bg-[#fafafa]
+ -z-10 h-full w-full bg-yellow-100
   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
    bg-[size:14px_24px]"
     >
@@ -22,7 +22,7 @@ const Showcase = () => {
             words="Design & Code That Helps Your Business Grow"
           />
         </div>
-        <p className="md:text-center text-xl md:text-2xl my-6   md:w-4/5 mx-auto text-gray-500">
+        <p className="md:text-center text-xl md:text-2xl my-6   md:w-4/5 mx-auto text-black">
           Have a look at some of our recent projects.
         </p>
 

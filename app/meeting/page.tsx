@@ -17,7 +17,7 @@ const page = () => {
     <div
       className="overflow-hidden 
  inset-0 
- -z-10 h-full w-full bg-[#fafafa]
+ -z-10 h-full w-full bg-yellow-100
   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
    bg-[size:14px_24px]"
    >
@@ -25,7 +25,7 @@ const page = () => {
         <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] mx-auto justify-between md:mt-14 md:flex">
             <div className="md:w-2/5">
                 <h1>Let&apos;s Meet</h1>
-                <p className="text-lg text-gray-400 py-4">
+                <p className="text-lg text-black py-4">
                     We are always excited to meet new people and discuss new projects.
                     Please feel free to book a meeting with us.
                 </p>
@@ -55,12 +55,12 @@ const page = () => {
                   transition={{ delay: index * 1.8 }}
                   className="flex gap-x-4 py-4"
                 >
-                  <PiCheckCircle className=" rounded-md text-yellow-200 text-2xl flex-shrink-0" />
+                  <PiCheckCircle className=" rounded-md text-black text-2xl flex-shrink-0" />
                   <ul>
-                    <h3 className="text-lg font-bold text-gray-700">
+                    <h3 className="text-lg font-bold text-black">
                       {item.title}
                     </h3>
-                    <div className="text-gray-400">{item.description}</div>
+                    <div className="text-black">{item.description}</div>
                   </ul>
                 </motion.div>
               ))}

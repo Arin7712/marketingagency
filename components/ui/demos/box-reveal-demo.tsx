@@ -12,9 +12,9 @@ const BoxRevealDemo = () => {
       </BoxReveal>
 
       <BoxReveal boxColor={"#fde68a"} duration={0.5}>
-        <h2 className="my-2 text-lg text-gray-500">
+        <h2 className="my-2 text-lg text-black">
           Connect with us via
-          <Link href={"/meeting"} className="text-yellow-200">
+          <Link href={"/meeting"} className="text-neutral-900">
             {" "}
             meeting{" "}
           </Link>
@@ -25,7 +25,7 @@ const BoxRevealDemo = () => {
       </BoxReveal>
 
       <BoxReveal boxColor={"#fde68a"} duration={0.5}>
-        <h2 className="my-2 text-lg text-gray-500">
+        <h2 className="my-2 text-lg text-black">
           Outline the scope of the project
         </h2>
       </BoxReveal>
@@ -35,7 +35,7 @@ const BoxRevealDemo = () => {
       </BoxReveal>
 
       <BoxReveal boxColor={"#fde68a"} duration={0.5}>
-        <h2 className="my-2 text-lg text-gray-500">Leave the rest to us</h2>
+        <h2 className="my-2 text-lg text-black">Leave the rest to us</h2>
       </BoxReveal>
     </div>
   );
