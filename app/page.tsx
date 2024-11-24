@@ -17,6 +17,9 @@ import {IconStarFilled} from '@tabler/icons-react'
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/ui/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import StarRate from '@mui/icons-material/StarRate';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Gesture from '@mui/icons-material/Gesture';
 
 const services = [
@@ -371,8 +374,8 @@ export default function Home() {
             />{" "}
           </h1>
           <p className="text-left flex flex-col text-xl  text-black">
-            <a href="mailto:">Email - Mo@growwith-mo.com</a>
-            <a href="https://www.instagram.com/grow.with_mo">Instagram - grow.with_mo</a>
+            <a href="mailto:"><FontAwesomeIcon icon={faEnvelope} style={{ color: '#000' , fontSize: '20px'}} /> Mo@growwith-mo.com</a>
+            <a href="https://www.instagram.com/grow.with_mo"><FontAwesomeIcon icon={faInstagram} style={{ color: '#000' , fontSize: '20px'}} /> grow.with_mo</a>
           </p>
         </div>
 
