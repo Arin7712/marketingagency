@@ -22,15 +22,15 @@ import Gesture from '@mui/icons-material/Gesture';
 const services = [
   {
     icon: "/s_6.png",
-    title: "Web Design + Development",
+    title: "Paid Ads",
     description:
-      "Take your business to the next level with our web design and development services",
+      "Take your business to the next level with our paid advertising.",
   },
   {
     icon: "/s_1.png",
-    title: "Search Engine Optimization",
+    title: "Lead Generation",
     description:
-      "Get your website to the top of search engine results with our SEO services",
+      "Through our paid ads you get the maximum reach and leads.",
   },
   {
     icon: "/s_5.png",
@@ -201,14 +201,14 @@ export default function Home() {
             <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-black" />
-                Design
+                Facebook Ads
               </p>
             </BoxReveal>
 
             <BoxReveal boxColor={"#fde68a"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-black" />
-                Development
+                Lead Generation
               </p>
             </BoxReveal>
 
@@ -335,7 +335,7 @@ export default function Home() {
           </h1>
 
           <p className="text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-black">
-          All of our services are designed to help your business to get noticed.
+          All of our services are designed to help your business get noticed.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center w-full md:w-1/2 mx-auto">

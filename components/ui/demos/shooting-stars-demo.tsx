@@ -21,9 +21,9 @@ const features = [
   },
   {
     icon: <Highlight style={{ fontSize: 30, color: 'yellow' }} />,
-    title: "Design & Development",
+    title: "Facebook Ad Management",
     description:
-      "We design and develop your website with the latest technologies and trends.",
+      "We manage your Facebook ads, making sure to keep up with the latest trends.",
   },
   {
     icon: <Bookmark style={{ fontSize: 30, color: 'yellow' }} />,
@@ -49,8 +49,8 @@ const features = [
 
   {
     icon: <Tune style={{ fontSize: 30, color: 'yellow' }} />,
-    title: "Dynamic Websites",
-    description: "We build dynamic solutions that are easy to manage.",
+    title: "Performance Marketing",
+    description: "Our Performance marketing strategies give you the best ROI.",
   },
   {
     icon: <MarkEmailUnread style={{ fontSize: 30, color: 'yellow' }} />,

@@ -31,9 +31,9 @@ const page = () => {
                 </p>
                 {[
                 {
-                  title: "Development + Design",
+                  title: "Data-driven ADS",
                   description:
-                    "Turn your ideas into reality with our development and design services.",
+                    "Every move is backed by data to make sure we hit the right audience that maximizes efficiency.",
                 },
 
                 {
@@ -44,7 +44,7 @@ const page = () => {
                 {
                   title: "Technical Support",
                   description:
-                    "Get technical support for your website or application.",
+                    "Get technical support for your ads campaign.",
                 },
               ].map((item, index) => (
                 <motion.div

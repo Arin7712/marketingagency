@@ -20,7 +20,7 @@ const font = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Mo - Design and development agency",
+  title: "Mo - Social Media Marketing Agency",
   description: "Grow your business with Mo",
 };
 
