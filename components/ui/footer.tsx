@@ -1,3 +1,6 @@
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,10 +17,8 @@ const Footer = () => {
               alt="image"
             />{" "}
         </h1>
-        <p className="text-left  text-xl  text-black">519-319-1562</p>
-        <p className="text-left  text-xl  text-black">
-          admin@birdsoftware.ca
-        </p>
+        <a href="mailto:"><FontAwesomeIcon icon={faEnvelope} style={{ color: '#000' , fontSize: '20px'}} /> Mo@growwith-mo.com</a>
+        <a href="https://www.instagram.com/grow.with_mo"><FontAwesomeIcon icon={faInstagram} style={{ color: '#000' , fontSize: '20px'}} /> grow.with_mo</a>
       </div>
 
       <div className="flex md:justify-center gap-x-4 mt-10">
