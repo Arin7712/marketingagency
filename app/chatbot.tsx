@@ -4,7 +4,6 @@ import Script from "next/script";
 export default function ChatbotPage() {
   return (
     <div>
-      <h1>Chatbot Page</h1>
       <Script
         id="chatbot-config"
         dangerouslySetInnerHTML={{
