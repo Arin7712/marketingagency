@@ -21,6 +21,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Gesture from '@mui/icons-material/Gesture';
+import ChatbotPage from "./chatbot";
 
 const services = [
   {
@@ -63,6 +64,8 @@ const services = [
 
 export default function Home() {
   return (
+    <>
+    <ChatbotPage/>
     
     <div
       className="overflow-hidden 
@@ -387,5 +390,6 @@ export default function Home() {
         </div>
       </footer>
     </div>
+    </>
   );
 }
