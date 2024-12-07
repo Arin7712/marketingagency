@@ -1,26 +1,26 @@
-// pages/chatbot.js
 import Script from "next/script";
 
-export default function ChatbotPage() {
+const Chatbot = () => {
   return (
-    <div>
-      <Script
-        id="chatbot-config"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.embeddedChatbotConfig = {
-              chatbotId: "tB0PUhi2Mk3TAhijvu03l",
-              domain: "www.chatbase.co"
-            };
-          `,
-        }}
-      />
+    <>
+      {/* Embed Chatbot Configuration */}
+      <Script id="chatbot-config" strategy="beforeInteractive">
+        {`
+          window.embeddedChatbotConfig = {
+            chatbotId: "tB0PUhi2Mk3TAhijvu03l",
+            domain: "www.chatbase.co"
+          };
+        `}
+      </Script>
+
+      {/* Embed Chatbot Script */}
       <Script
         src="https://www.chatbase.co/embed.min.js"
-        chatbotId="tB0PUhi2Mk3TAhijvu03l"
-        domain="www.chatbase.co"
-        strategy="lazyOnload"
+        strategy="afterInteractive"
+        defer
       />
-    </div>
+    </>
   );
-}
+};
+
+export default Chatbot;
